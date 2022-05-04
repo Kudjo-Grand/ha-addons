@@ -1,8 +1,8 @@
 {
     "name": "Guacamole (beta)",
     "version": "1.4.0",
-    "slug": "haguacamole2",
-    "description": "Copy of Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH.",
+    "slug": "haguacamolebeta",
+    "description": "Unstable build where tweaks and features and updates for Guacamole are tested first",
     "arch": [
       "aarch64",
       "amd64",
