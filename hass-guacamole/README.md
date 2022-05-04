@@ -1,11 +1,11 @@
-## This Repository is deprecated and will no longer be supported.
+## This my first addon for HA, do not plan on extended support.
 
 
 
 ## Installation
 1. Add the repository URL under **Supervisor → Add-on Store → ⋮ → Repositories**:
 
-    https://github.com/Kudjo-Grand/hass-guacamole
+    https://github.com/Kudjo-Grand/ha-addons
 2. Find the "Guacamole" add-on and click it.
 3. Click on the "INSTALL" button.
 
@@ -21,4 +21,4 @@ Apache Guacamole for Homeassistant
 
 More info about Guacamole: https://guacamole.apache.org/
 
-based on: https://github.com/oznu/docker-guacamole
+based on: https://github.com/MaxWaldorf/guacamole (a fork of: https://github.com/oznu/)docker-guacamole
