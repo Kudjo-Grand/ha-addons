@@ -2,7 +2,7 @@
     "name": "Guacamole (beta)",
     "version": "1.4.0",
     "slug": "haguacamolebeta",
-    "description": "Unstable build where tweaks and features and updates for Guacamole are tested first",
+    "description": "Unstable build where tweaks, features, and updates for Guacamole are tested first",
     "arch": [
       "aarch64",
       "amd64",
