@@ -14,7 +14,7 @@
     "boot": "auto",
     "panel_icon": "mdi:remote-desktop",
     "ingress": true,
-    "ingress_port": 8880,
+    "ingress_port": 8080,
     "image": "maxwaldorf/guacamole",
     "options": {},
     "ports": {
