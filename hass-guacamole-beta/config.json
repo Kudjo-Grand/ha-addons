@@ -15,7 +15,7 @@
     "panel_icon": "mdi:remote-desktop",
     "ingress": true,
     "ingress_port": 8880,
-    "image": "maxwaldorf/guacamole",
+    "image": "maxwaldorf/guacamole:latest",
     "options": {},
     "ports": {
     "8080/tcp": null
