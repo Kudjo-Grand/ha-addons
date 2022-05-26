@@ -10,6 +10,10 @@
 3. Click on the "INSTALL" button.
 
 
+## Prerequisites
+
+MariaDB is required for this to function. The official "Home Assistant Add-on: MariaDB" should work perfectly with this.
+
 ## Default User
 
 The default username is `guacadmin` with password `guacadmin`.
