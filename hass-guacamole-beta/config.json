@@ -1,7 +1,7 @@
 {
     "name": "Guacamole (beta)",
-    "version": "1.4.1",
-    "slug": "haguacamolebeta141",
+    "version": "1.4.2,
+    "slug": "haguacamolebeta",
     "description": "Unstable build where tweaks, features, and updates for Guacamole are tested first",
     "arch": [
       "aarch64",
@@ -15,7 +15,7 @@
     "panel_icon": "mdi:remote-desktop",
     "ingress": true,
     "ingress_port": 8880,
-    "image": "maxwaldorf/guacamole:1.4.1",
+    "image": "maxwaldorf/guacamole",
     "options": {},
     "ports": {
     "8080/tcp": null
