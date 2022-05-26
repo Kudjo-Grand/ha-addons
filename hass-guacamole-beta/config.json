@@ -23,7 +23,9 @@
     "ports_description": {
       "8080/tcp": "Web interface (Not required for Home Assistant Ingress)"
     },
-    "EXTENSIONS": "auth-totp",
+    "env":{
+    "EXTENSIONS": null
+    },
     "schema": {},
     "hassio_role": "default"
 }
