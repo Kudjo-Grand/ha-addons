@@ -2,7 +2,7 @@
 name: "Guacamole (beta)"
 version: 1.4.2
 slug: haguacamolebeta14x
-description: 9Unstable build where tweaks, features, and updates for Guacamole are tested first
+description: Unstable build where tweaks, features, and updates for Guacamole are tested first
 url: https://guacamole.apache.org/
 # codenotary: codenotary@frenck.dev
 # advanced: true
