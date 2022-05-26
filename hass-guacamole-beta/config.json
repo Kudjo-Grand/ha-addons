@@ -26,6 +26,8 @@
     "environment": {
     "extensions": "auth-totp"
     },
-    "schema": {},
+    "schema": {
+    "extensions": "str"
+    },
     "hassio_role": "default"
 }
