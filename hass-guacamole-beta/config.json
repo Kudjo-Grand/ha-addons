@@ -1,6 +1,6 @@
 {
     "name": "Guacamole (beta)",
-    "version": "test-02",
+    "version": "1.4.2",
     "slug": "haguacamolebeta",
     "description": "Unstable build where tweaks, features, and updates for Guacamole are tested first",
     "arch": [
