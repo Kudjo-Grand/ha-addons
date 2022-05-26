@@ -1,5 +1,9 @@
 ## This my first addon for HA, do not plan on extended support.
 
+## Beta features being tested
+
+TOTP enabled by default. (HIGHLY requested feature for this)
+
 ## Prerequisites
 
 MariaDB is required for this to function. The official "Home Assistant Add-on: MariaDB" should work perfectly with this.
