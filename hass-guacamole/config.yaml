@@ -1,0 +1,92 @@
+---
+name: "Guacamole"
+version: 1.4.2
+slug: haguacamole
+description: Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH.
+url: https://guacamole.apache.org/
+# codenotary: codenotary@frenck.dev
+# advanced: true
+# startup: services
+startup: application
+image: maxwaldorf/guacamole
+# ingress: true
+# ingress_port: 0
+# ingress_stream: true
+# panel_icon: mdi:console
+# panel_title: Terminal
+# homeassistant: 0.92.0b2
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  # - i386
+ports:
+  8080/tcp: 8080
+ports_description:
+  8080/tcp: Web interface (Not required for Home Assistant Ingress)
+# hassio_api: true
+# hassio_role: manager
+hassio_role: default
+# services:
+#   - mysql:want
+#   - mqtt:want
+# homeassistant_api: true
+# host_network: true
+# uart: true
+# usb: true
+# gpio: true
+# audio: true
+# apparmor: false
+# host_dbus: true
+# docker_api: true
+# privileged:
+#   - NET_ADMIN
+#   - SYS_ADMIN
+#   - SYS_RAWIO
+#   - SYS_TIME
+#   - SYS_NICE
+# devices:
+#   - /dev/mem
+# map:
+#   - config:rw
+#   - ssl:rw
+#   - addons:rw
+#   - media:rw
+#   - share:rw
+#   - backup:rw
+# journald: true
+environment:
+  EXTENSIONS: auth-totp
+# options:
+#   environment:
+#     EXTENSIONS: auth-totp
+  #   password: ""
+  #   authorized_keys: []
+  #   sftp: false
+  #   compatibility_mode: false
+  #   allow_agent_forwarding: false
+  #   allow_remote_port_forwarding: false
+  #   allow_tcp_forwarding: false
+  # zsh: true
+  # share_sessions: false
+  # packages: []
+  # init_commands: []
+# schema:
+  # log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  #   environment:
+  #     EXTENSIONS: str
+  #   password: password
+  #   authorized_keys:
+  #     - str
+  #   sftp: bool
+  #   compatibility_mode: bool
+  #   allow_agent_forwarding: bool
+  #   allow_remote_port_forwarding: bool
+  #   allow_tcp_forwarding: bool
+  # zsh: bool
+  # share_sessions: bool
+  # packages:
+  #   - str
+  # init_commands:
+  #   - str
