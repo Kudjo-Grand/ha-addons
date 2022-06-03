@@ -2,7 +2,7 @@
 name: "Guacamole (beta)"
 version: 1.4.2
 slug: haguacamolebeta14x
-description: Unstable build where tweaks, features, and updates for Guacamole are tested first. v0.32
+description: Unstable build where tweaks, features, and updates for Guacamole are tested first. v0.33
 url: https://guacamole.apache.org/
 # codenotary: codenotary@frenck.dev
 # advanced: true
@@ -57,11 +57,11 @@ hassio_role: default
 #   - share:rw
 #   - backup:rw
 # journald: true
-environment:
-  EXTENSIONS: $auth
+# environment:
+#   EXTENSIONS: $auth
 options:
-#  environment:
-  EXTENSIONS: $auth
+  environment:
+    - EXTENSIONS: auth-totp
   #   password: ""
   #   authorized_keys: []
   #   sftp: false
@@ -76,7 +76,7 @@ options:
 schema:
   # log_level: list(trace|debug|info|notice|warning|error|fatal)?
   #   environment:
-  EXTENSIONS: str
+  EXTENSIONS: str?
   #   password: password
   #   authorized_keys:
   #     - str
