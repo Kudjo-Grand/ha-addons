@@ -58,9 +58,9 @@ hassio_role: default
 # journald: true
 environment:
   EXTENSIONS: auth-totp
-# options:
+options:
 #   environment:
-#     EXTENSIONS: auth-totp
+  EXTENSIONS: auth-totp
   #   password: ""
   #   authorized_keys: []
   #   sftp: false
@@ -72,10 +72,10 @@ environment:
   # share_sessions: false
   # packages: []
   # init_commands: []
-# schema:
+schema:
   # log_level: list(trace|debug|info|notice|warning|error|fatal)?
   #   environment:
-  #     EXTENSIONS: str
+  EXTENSIONS: str
   #   password: password
   #   authorized_keys:
   #     - str
