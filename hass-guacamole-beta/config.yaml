@@ -7,7 +7,7 @@ url: https://guacamole.apache.org/
 # codenotary: codenotary@frenck.dev
 # advanced: true
 # startup: services
-webui: https://[IP]:[PORT:18080]
+webui: https://[HOST]:[PORT:18080]
 startup: application
 image: maxwaldorf/guacamole
 # ingress: true
