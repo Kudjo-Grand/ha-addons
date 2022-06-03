@@ -58,7 +58,7 @@ hassio_role: default
 #   - backup:rw
 # journald: true
 environment:
-#  EXTENSIONS: auth-totp
+  EXTENSIONS: auth-totp
 options:
 #  environment:
   EXTENSIONS: jellybean
