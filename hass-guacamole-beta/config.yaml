@@ -61,7 +61,7 @@ environment:
 #  EXTENSIONS: auth-totp
 options:
 #  environment:
-    EXTENSIONS: jellybean
+  EXTENSIONS: jellybean
   #   password: ""
   #   authorized_keys: []
   #   sftp: false
