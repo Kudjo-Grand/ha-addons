@@ -60,7 +60,7 @@ hassio_role: default
 environment:
 #  EXTENSIONS: auth-totp
 options:
-  environment:
+#  environment:
     EXTENSIONS: jellybean
   #   password: ""
   #   authorized_keys: []
