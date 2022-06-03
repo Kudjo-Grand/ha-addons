@@ -2,12 +2,12 @@
 name: "Guacamole (beta)"
 version: 1.4.2
 slug: haguacamolebeta14x
-description: Unstable build where tweaks, features, and updates for Guacamole are tested first. v0.31
+description: Unstable build where tweaks, features, and updates for Guacamole are tested first. v0.3
 url: https://guacamole.apache.org/
 # codenotary: codenotary@frenck.dev
 # advanced: true
 # startup: services
-webui: https://[HOST]:[PORT:8443]
+webui: https://[127.0.0.1]:[PORT:18080]
 startup: application
 image: maxwaldorf/guacamole
 # ingress: true
@@ -23,7 +23,7 @@ arch:
   - armv7
   # - i386
 ports:
-  8080/tcp: 8080
+  8080/tcp: 18080
 ports_description:
   8080/tcp: Web interface (Not required for Home Assistant Ingress)
 # hassio_api: true
@@ -61,7 +61,7 @@ environment:
   EXTENSIONS: $auth
 options:
 #  environment:
-  $auth: jellybean
+  EXTENSIONS: $auth
   #   password: ""
   #   authorized_keys: []
   #   sftp: false
@@ -76,7 +76,7 @@ options:
 schema:
   # log_level: list(trace|debug|info|notice|warning|error|fatal)?
   #   environment:
-  $auth: str
+  EXTENSIONS: str
   #   password: password
   #   authorized_keys:
   #     - str
