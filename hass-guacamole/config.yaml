@@ -52,7 +52,7 @@ hassio_role: default
  map:
 #   - config:rw
 #   - ssl:rw
-  - addons:rw
+ - addons:rw
 #   - media:rw
 #   - share:rw
 #   - backup:rw
