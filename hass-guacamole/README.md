@@ -21,11 +21,11 @@ The default username is `guacadmin` with password `guacadmin`.
 ## Settings Persistence
     
 This creates the following in the "config" folder used by Home Assistant:
-    -Folders:
-        -guacamole
-        -postgres
-    -File(s):
-        -.database-version
+1. Folders:
+    "guacamole", 
+    "postgres"
+2. File(s):
+    ".database-version"
     
 These files should persist between installs/uninstalls/reinstalls of this app. You should delete them if you want to start fresh.
     
