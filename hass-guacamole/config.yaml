@@ -50,12 +50,12 @@ hassio_role: default
 # devices:
 #   - /dev/mem
 map:
-#   - config:rw
-#   - ssl:rw
- - addons:rw
-#   - media:rw
-#   - share:rw
-#   - backup:rw
+ - config:rw
+# - ssl:rw
+# - addons:rw
+# - media:rw
+# - share:rw
+# - backup:rw
 # journald: true
 environment:
   EXTENSIONS: auth-totp
