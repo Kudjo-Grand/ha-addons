@@ -2,7 +2,7 @@
 name: "Guacamole"
 version: 1.4.2
 slug: haguacamole
-description: Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH.
+description: Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH. TOTP 2FA enabled out of the box!
 url: https://guacamole.apache.org/
 # codenotary: codenotary@frenck.dev
 # advanced: true
@@ -49,10 +49,10 @@ hassio_role: default
 #   - SYS_NICE
 # devices:
 #   - /dev/mem
-# map:
+ map:
 #   - config:rw
 #   - ssl:rw
-#   - addons:rw
+  - addons:rw
 #   - media:rw
 #   - share:rw
 #   - backup:rw
