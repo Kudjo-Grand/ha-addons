@@ -18,7 +18,17 @@ You can then reach Guacamole on http://<your HA IP>:<your selected port> (e.g. h
 
 The default username is `guacadmin` with password `guacadmin`.
 
-
+## Settings Persistence
+    
+This creates the following in the "config" folder used by Home Assistant:
+    -Folders:
+        -guacamole
+        -postgres
+    -File(s):
+        -.database-version
+    
+These files should persist between installs/uninstalls/reinstalls of this app. You should delete them if you want to start fresh.
+    
 ## Info
 
 Apache Guacamole for Homeassistant
@@ -26,3 +36,4 @@ Apache Guacamole for Homeassistant
 More info about Guacamole: https://guacamole.apache.org/
 
 based on: https://github.com/MaxWaldorf/guacamole (a fork of: https://github.com/oznu/docker-guacamole )
+
