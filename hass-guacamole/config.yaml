@@ -49,7 +49,7 @@ hassio_role: default
 #   - SYS_NICE
 # devices:
 #   - /dev/mem
- map:
+map:
 #   - config:rw
 #   - ssl:rw
  - addons:rw
